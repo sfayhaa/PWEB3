@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Warung Tegal</title>
+    <style type="text/css">
+        header,
+        section,
+        footer,
+        aside,
+        nav,
+        article,
+        figure,
+        figcaption {
+            display: block;
+        }
+        
+        body {
+            color: #f9f8f6;
+            background-color: #666666;
+            background-image: url("background.jpg");
+            background-position: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4em;
+            margin: 0px;
+        }
+        
+        .wrapper {
+            width: 980px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: lightslategrey;
+        }
+        
+        header {
+            height: 160px;
+            background-image: url("bg_header.jpg");
+        }
+        
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+        }
+        
+        nav,
+        footer {
+            clear: both;
+            color: #ffffff;
+            background-color: rgba(46, 77, 135, 0.84);
+            height: 30px;
+        }
+        
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        
+        nav li a {
+            color: #ffffff;
+        }
+        
+        nav li a:hover,
+        nav li a.current {
+            color: #000000;
+        }
+        
+        section.courses {
+            float: left;
+            width: 659px;
+            text-align: left;
+            border-right: 1px solid #eeeeee;
+        }
+        
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+        
+        hgroup {
+            margin-top: 40px;
+        }
+        
+        figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;
+        }
+        
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+        
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+        }
+        
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        
+        aside section a:hover {
+            color: darkslateblue;
+            background-color: #efefef;
+        }
+        
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+        }
+        
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;
+        }
+        
+        h3 {
+            margin: 0px 0px 23px 0px;
+            color: rgb(36, 75, 113);
+        }
+        
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+        }
+        
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+        
+        img {
+            width: 290px;
+            height: 190px;
+        }
+    </style>
+    <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>Warung Tegal</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="soto.jpg" alt="soto" />
+                    <figcaption>Masakan khas Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Soto Ayam</h2>
+                    <h3>Makanan Berkuah</h3>
+                </hgroup>
+                <p>Soto is a traditional Indonesian soup mainly composed of broth, meat, and vegetables. Many traditional soups are called soto, whereas foreign and Western influenced soups are called sop.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="pecel.jpg" alt="pecel" />
+                    <figcaption>Masakan khas Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Masakan Pecel</h2>
+                    <h3>Makanan dengan Bumbu Kacang</h3>
+                </hgroup>
+                <p>Pecel , (Javanese:ꦥꦼꦕꦼꦭ꧀) is a traditional Javanese salad with peanut sauce, usually eaten with carbs (steamed rice, lontong or ketupat). The simplicity of pecel preparation and its cheap price have contributed to its popularity throughout
+                    Java. It has become a food that represents practicality, simplicity, and travel, since the dish is often found along the train journey across Java.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="rawon.jpg" alt="rawon" />
+                    <figcaption>Makanan khas Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Rawon</h2>
+                    <h3>Makanan Berkuah</h3>
+                </hgroup>
+                <p>Rawon (Aksara Jawa: ꦫꦮꦺꦴꦤ꧀) is an Indonesian beef soup. Originating from Surabaya, East Java, rawon utilizes the black keluak nut as the main seasoning, which gives a dark color and nutty flavor to the soup.</p>
+            </article>
+        </section>
+
+        <aside>
+            <section class="popular-recipes">
+                <h2>Masakan Populer</h2>
+                <a href="https://www.merdeka.com/gaya/4-resep-dan-cara-membuat-soto-ayam-bening-enak-dan-sederhana-kln.html">Soto </a>
+                <a href="https://www.orami.co.id/magazine/resep-rawon/">Pecel</a>
+                <a href="https://cookpad.com/id/resep/15514223-sop-sayuran-sederhana?ref=search&search_term=sayur%20sop">Sayur Sop</a>
+                <a href="https://www.royco.co.id/royconutrimenu/nutrimenu-recipe/sayur-asam-ubi--stik-ikan-krenyes.html?gclid=Cj0KCQjwnJaKBhDgARIsAHmvz6exFhVpwhxerc-DTMu9eYaapdSk0-P4WU2sy67-9JtfkvUqman5458aApvEEALw_wcB&gclsrc=aw.ds">Sayur Asem</a>
+                <a href="https://resepkoki.id/resep/resep-rawon/">Rawon</a>
+            </section>
+            <section class="contact-details">
+                <h2>Contact</h2>
+                <p>Warung Tegal<br /> Address : Semarang, Jawa Tengah<br>Telp : 0809-1230-4560
+            </section>
+            <section>
+                <h2>Ulasan Kuliner</h2>
+                <iframe width="250" height="140" src="https://www.youtube.com/embed/h67_FR0X0f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </aside>
+
+        <footer>
+            &copy; 2021 Warung Tegal
+        </footer>
+    </div>
+    <!-- .wrapper -->
+</body>
+
+</html>
